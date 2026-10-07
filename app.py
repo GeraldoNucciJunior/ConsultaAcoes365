@@ -1,8 +1,11 @@
 import yfinance as yf
 import matplotlib.pyplot as plt
+from datetime import datetime, timedelta
 
-def media_ultimos_dias(codigo, dias=365):
-    dados = yf.Ticker(codigo).history(period="1mo")["Close"].tail(dias)
+def media_ultimos_dias(codigo):
+    fim = datetime.today()
+    inicio = fim - timedelta(days=365)
+    dados = yf.Ticker(codigo).history(start=inicio, end=fim)["Close"]
     return dados, dados.mean()
 
 if __name__ == "__main__":
