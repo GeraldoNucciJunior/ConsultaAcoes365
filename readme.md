@@ -1,2 +1,2 @@
-# ConsultaA-oes365
+# ConsultaAcoes365
 Consulta de ações com média dos últimos 365 dias
