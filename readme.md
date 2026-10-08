@@ -1,6 +1,6 @@
 # 📈 Consulta Ações 365
 
-Aplicação em Python que consulta a cotação de uma ação da bolsa, calcula a **média dos últimos 5 dias** e exibe um **gráfico** com a evolução do preço.
+Aplicação em Python que consulta a cotação de uma ação da bolsa, calcula a **média dos últimos 365 dias** e exibe um **gráfico** com a evolução do preço.
 
 Projeto criado para praticar Python aplicado ao mercado financeiro, unindo mais de 20 anos de experiência em sistemas financeiros (Front/Back-Office, Tesouraria e Fundos) com análise de dados.
 
@@ -84,7 +84,7 @@ Em seguida, uma janela com o gráfico dos últimos 5 dias é exibida.
 
 - [ ] Interface web com Streamlit
 - [ ] Comparar o desempenho de várias ações ao mesmo tempo
-- [ ] Comparador dos 5 maiores fundos de investimento de diferentes instituições
+- [ ] Comparador dos 365 maiores fundos de investimento de diferentes instituições
 - [ ] Salvar o histórico das consultas em banco de dados (SQLite)
 - [ ] Testes automatizados
 
